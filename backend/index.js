@@ -8,7 +8,7 @@ const router = express.Router();
 config({ path: './config.env' });
 
 app.use(cors({
-    origin:[process.env.FRONTEND_URL],
+    origin:["https://gym-website-frontend-three.vercel.app"],
     methods:["POST"],
     credentials: true
 }))
