@@ -8,7 +8,7 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
-  const BackendURL=import.meta.env.VITE_BACKEND_URL
+  const BackendURL="https://gym-website-backend-stbp.onrender.com"
 
   const sendEmail =async (e)=>{
     e.preventDefault()
